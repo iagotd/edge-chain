@@ -16,9 +16,9 @@ To see the project documentation click [here](http://castor.det.uvigo.es:8080/xm
 ## :rocket: Set-up
 
 - ### Installing solidity and solc:
->sudo add-apt-repository ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install solc
+> sudo add-apt-repository ppa:ethereum/ethereum
+> sudo apt-get update
+> sudo apt-get install solc
 
 - ### Installing solidity and solc:
 - a
