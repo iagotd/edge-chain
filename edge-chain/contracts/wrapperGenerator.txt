@@ -1,0 +1,4 @@
+solc contracts/HelloWorld.sol  --bin --abi --optimize -o contracts/
+
+
+~/Software/web3j-4.1.1/bin/web3j solidity generate -b contracts/HelloWorld.bin -a contracts/HelloWorld.abi -o contracts/ -p com.edge.chain
