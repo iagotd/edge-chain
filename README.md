@@ -16,24 +16,26 @@ To see the project documentation click [here](http://castor.det.uvigo.es:8080/xm
 ## :rocket: Set-up
 
 - ### Installing solidity and solc:
-> sudo add-apt-repository ppa:ethereum/ethereum
-> sudo apt-get update
-> sudo apt-get install solc
+```
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install solc
+```
 
-- ### Installing solidity and solc:
-- a
-- b
-- c
+- ### Installing Java JDK:
+```
+sudo apt install openjdk-11-jre-headless
+```
 
-- ### Installing solidity and solc:
-- a
-- b
-- c
+- ### Installing Web3j:
+- You can find the version of web3j I used in my github repository but you can find the newest one in the official Web3j repository.
+- Remember to give the web3j executable file execution permissions. You can find that file in web3j-4.1.1/bin/web3j
+```
+sudo chmod 750 web3j
+```
 
-- ### Installing solidity and solc:
-- a
-- b
-- c
+- ### Installing GoEthereum:
+To install Geth I would advise to follow this [link](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth). Chances are that It is much more updated than the method I used in 2019.
 
 
 ## :exclamation: Disclaimers
