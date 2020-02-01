@@ -10,24 +10,31 @@ To see the project documentation click [here](http://castor.det.uvigo.es:8080/xm
 - [Truffle](https://www.trufflesuite.com/truffle) was used as a contract migration tool and as a directory manager too.
 - [Ganache](https://www.trufflesuite.com/ganache) was used as a testing blockchain network for the developing phase.
 - The final Blockchain network was created using [GoEthereum](https://github.com/ethereum/go-ethereum).
+- [Solidity Remix](https://remix.ethereum.org/) was used too in the Smart Contract development.
+
 
 ## :rocket: Set-up
+
+- ### Installing solidity and solc:
+>sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install solc
+
 - ### Installing solidity and solc:
 - a
 - b
 - c
+
 - ### Installing solidity and solc:
 - a
 - b
 - c
+
 - ### Installing solidity and solc:
 - a
 - b
 - c
-- ### Installing solidity and solc:
-- a
-- b
-- c
+
 
 ## :exclamation: Disclaimers
 - Currently the documentation is only in Spanish; an English version will be uploaded as soon as I finish one.
