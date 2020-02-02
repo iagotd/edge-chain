@@ -1,7 +1,7 @@
 # :gear: Edge-Chain
 Design and implementation of a blockchain architecture, located on the edge, to provide secure support, reliability, monitoring and malicious behavior control of IoT devices.
 
-To see the project documentation click [here](http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345?locale-attribute=en).
+To see my bachelor thesis in my university official repository click [here](http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345?locale-attribute=en).
 
 I strongly advise to read the [disclaimer](#exclamation-disclaimers) section before reading/using the code.
 
