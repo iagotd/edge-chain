@@ -41,10 +41,10 @@ contract EdgeChain {
     function changeVersion(uint256 _version) public returns (uint256) {
         //if(msg.sender != ADMINISTRATOR){
         if(_version < 5){
-            return 1;  //No tienes privilegios
+            return 1;
         }
         version = _version;
-        return 0;     //Todo Ok
+        return 0;
     }
     
     function any_operation(uint256 _version) public returns (uint256) {
@@ -54,10 +54,10 @@ contract EdgeChain {
             dev_add.push(msg.sender);
         }
         if(_version < version){
-            return 2; //Necesario actualizar
+            return 2;
         }
         if(devs[msg.sender].penalty > PATIENCE){
-            return 3; //Tienes un penalty como una catedral
+            return 3;
         }
         
         uint256 startGas = gasleft();
@@ -90,7 +90,7 @@ contract EdgeChain {
         }
         
         //-------------
-        //Funcionalidad
+        //Functionality
         //-------------
         
         devs[msg.sender].gas_used += startGas - gasleft() + 22664;
