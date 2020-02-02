@@ -3,7 +3,7 @@ Design and implementation of a blockchain architecture, located on the edge, to 
 
 To see the project documentation click [here](http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345?locale-attribute=en).
 
-I would advise to read the [disclaimer] (https://github.com/iagotd/edge-chain/blob/master/README.md#exclamation-disclaimers) section before reading/using the code.
+I strongly advise to read the [disclaimer](#exclamation-disclaimers) section before reading/using the code.
 
 ## :hammer_and_wrench: Technologies
 - The smart contract language utilized was [Solidity](https://solidity.readthedocs.io/en/v0.6.2/) with Solc as Solidity compiler.
@@ -54,5 +54,5 @@ solc contracts/HelloWorld.sol  --bin --abi --optimize -o contracts/
 
 ## :exclamation: Disclaimers
 - Currently the documentation is only in Spanish; an English version will be uploaded as soon as I finish one.
-- When moving to the Netherlands I forgot to bring my two Blackberry Pi 3b+ with me so, I do not have the last version of the Java client nor the last version of the EdgeChain.sol contract with me. They will be uploaded in my next visit to Spain.
+- When moving to the Netherlands I forgot to bring my two Blackberry Pi 3b+ with me so, **I do not have the last version of the Java client nor the last version of the EdgeChain.sol contract with me.** They will be uploaded in my next visit to Spain.
 - Solidity is a young and rapidly changing technology so there are high chances of finding obsolete methods in my code.
