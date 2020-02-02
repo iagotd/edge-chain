@@ -54,5 +54,5 @@ solc contracts/HelloWorld.sol  --bin --abi --optimize -o contracts/
 
 ## :exclamation: Disclaimers
 - Currently the documentation is only in Spanish; an English version will be uploaded as soon as I finish one.
-- When moving to the Netherlands I forgot to bring my two Blackberry Pi 3b+ with me so, **I do not have the last version of the Java client nor the last version of the EdgeChain.sol contract with me.** They will be uploaded in my next visit to Spain.
+- When moving to the Netherlands I forgot to bring my two Blackberry Pi 3b+ with me so, **I do not have the last version of the Java client nor the last version of the EdgeChain.sol contract. They are not in this repository.** They will be uploaded in my next visit to Spain.
 - Solidity is a young and rapidly changing technology so there are high chances of finding obsolete methods in my code.
