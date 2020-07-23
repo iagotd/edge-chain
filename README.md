@@ -49,7 +49,7 @@ solc contracts/HelloWorld.sol  --bin --abi --optimize -o contracts/
 ```
 - Use the previously mentioned web3j file (remember to give it executable permissions) to create the .java file from the .bin and .abi files:
 ```
-~/Software/web3j-4.1.1/bin/web3j solidity generate -b contracts/HelloWorld.bin -a contracts/HelloWorld.abi -o contracts/ -p com.edge.chain
+~/<path>/web3j-4.1.1/bin/web3j solidity generate -b contracts/HelloWorld.bin -a contracts/HelloWorld.abi -o contracts/ -p com.edge.chain
 ```
 
 ## :exclamation: Disclaimers
